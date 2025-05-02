@@ -13,14 +13,12 @@
   4. Notice Upload 
   5. Exam result upload
   6. Notes upload
-  7. Bus Service  
-  8. Syllabus upload / update
-  9. Time table
-  10. Attendence Management
-  11. Password reset, Forgot password
-  12. Front Page 
-  13. Single login
-  14. Dark theme support
+  7. Time table
+  8. Attendence Management
+  9. Password reset, Forgot password
+  10. Front Page 
+  11. Single login
+  12. Dark theme support
 
  Emails and Passwords
 
