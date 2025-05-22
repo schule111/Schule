@@ -80,17 +80,7 @@ function submitForm(event) {
         error_msg.classList.add(data.status === "success" ? 'alert-success' : 'alert-danger');
         error_msg.innerHTML = data.status === "success" ? 'success' : '' + data.message;
     
-        errorbox.style.display = 'block';
-    
-        if (data.role === "admin") {
-            window.location.href = 'admin_panel/dashboard.php';
-        } else if (data.role === "owner") {
-            window.location.href = 'owner_panel/index.php';
-        } else if (data.role === "teacher") {
-            window.location.href = 'teacher_panel/dashboard.php';
-        } else if (data.role === "student") {
-            window.location.href = 'student_panel/index.php';
-        }
+       window.location.href = 'assets/verifyRoleRedirect.php';
     
     })
     .catch(error => {
